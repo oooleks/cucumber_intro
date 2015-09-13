@@ -1,0 +1,3 @@
+login: --tags @login
+regression: --tags @regression
+search: --tags @search
