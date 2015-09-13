@@ -19,8 +19,9 @@ When(/^I press Login button$/) do
   puts "I click login button"
 end
 
-Then(/^I should be signed in as a user BayQaTraining$/) do
+Then(/^I should be signed in as a user "([^"]*)"$/) do |user|
   puts "I am signed in"
+  puts user
 end
 
 Then(/^I send my login "([^"]*)"$/) do |login|
