@@ -1,3 +1,4 @@
 login: --tags @login
 regression: --tags @regression
 search: --tags @search
+check_out: -- tags @check_out
