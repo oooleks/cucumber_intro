@@ -1,4 +1,5 @@
-login: --tags @login
-regression: --tags @regression
-search: --tags @search
-check_out: -- tags @check_out
+login: --tags @login --format html --out report.html --format pretty
+# '--format pretty' - outputs report into terminal too
+regression: --tags @regression --format html --out report.html --format pretty
+search: --tags @search --format html --out report.html --format pretty
+checkout: --tag checkout --format html --out report.html --format pretty
