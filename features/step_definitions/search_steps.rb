@@ -9,3 +9,9 @@ end
 And(/^I get search results$/) do
   puts "I get my results"
 end
+
+Then(/^items should have discounts tags$/) do |table|
+  # table is a Cucumber::Core::Ast::DataTable
+  table = table.raw
+  puts table
+end

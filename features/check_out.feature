@@ -3,6 +3,7 @@ Feature: Order placement and checkout functionality
   Background:
     Given I prepare my environment for test execution
     Given I open shopping cart
+
   @check_out @regression
   Scenario: Confirmation and placement an order
     Then I confirm the list of items in cart to buy
