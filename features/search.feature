@@ -1,12 +1,15 @@
+@regression
 Feature: Test scenarios for search functionality
   Background:
     Given I prepare my environment for test execution
     Given I open search page
-  @search @regression
+
+  @search
   Scenario: User able to search items
     Then I search by name "computer"
     And I get search results
-  @regression
+
+  @search
   Scenario Outline: Test search functionality with multiple inputs
     Then I search by name "<term>"
     And I get search results
