@@ -11,6 +11,10 @@ Feature: Test scenarios for Login functionality
     And I send my password root1234
     When I press Login button
     Then I should be signed in as a user "BayQaTraining"
+<<<<<<< HEAD
+=======
+    And I should not see error message
+>>>>>>> 094a29d93cfb5852194282a58f7bee6dd035a499
 
   @login
   Scenario: Parameterized login and password
@@ -18,6 +22,7 @@ Feature: Test scenarios for Login functionality
     And I send my password "my_password"
     When I press Login button
     Then I should be signed in as a user "BayQaTraining"
+    And I should see error message
 
   Scenario Outline: Test login functionality with multiple credentials
     Then I send my login "<login>"

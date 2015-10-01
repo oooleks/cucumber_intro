@@ -1,5 +1,12 @@
 login: --tags @login --format html --out report.html --format pretty
+<<<<<<< HEAD
 regression: --tags @regression --format html --out report.html --format pretty
 search: --tags @search --format html --out report.html --format pretty
 checkout: --tags @checkout --format html --out report.html --format pretty
 check_out: --tags @check_out
+=======
+# '--format pretty' - outputs report into terminal too
+regression: --tags @regression --format html --out report.html --format pretty
+search: --tags @search --format html --out report.html --format pretty
+checkout: --tags @checkout --format html --out report.html --format pretty
+>>>>>>> 094a29d93cfb5852194282a58f7bee6dd035a499

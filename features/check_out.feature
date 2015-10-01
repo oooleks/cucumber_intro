@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 @check_out
+=======
+@regression
+>>>>>>> 094a29d93cfb5852194282a58f7bee6dd035a499
 Feature: Order placement and checkout functionality
 
   Background:
     Given I prepare my environment for test execution
     Given I open shopping cart
 
+<<<<<<< HEAD
+=======
+  @check_out
+>>>>>>> 094a29d93cfb5852194282a58f7bee6dd035a499
   Scenario: Confirmation and placement an order
     Then I confirm the list of items in cart to buy
     Then I confirm the address to ship "95130"
